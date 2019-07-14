@@ -38,7 +38,7 @@ class FilmRow extends React.Component {
                     <div className="grid-item grid-image">{this.calculateImage()}</div>
                     <div className="grid-item">{this.calculateRange()}</div>
                 </div>
-                <div className={this.shouldHide() ? '' : 'hide'}>
+                <div id="RateStars" className={this.shouldHide() ? '' : 'hide'}>
                     <RateStars/>
                 </div>
             </div>
