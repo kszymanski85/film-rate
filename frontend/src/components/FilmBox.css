@@ -1,0 +1,51 @@
+.stars{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.stars span{
+    font-size: 35px;
+}
+
+.star-description {
+    font-size: 12px;
+    text-align: right;
+}
+
+.star-selected {
+    color: orange;
+}
+
+.star-unselected {
+    color: lightgray;
+}
+
+.grid-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid-item {
+    margin: 3px 10px 3px 10px;
+}
+
+.grid-image {
+    font-size: 20px;
+}
+
+.box-header {
+    padding: 10px 0 15px 0;
+    border-bottom: solid 1px;
+}
+
+.film-row {
+    cursor: pointer;
+}
+
+.film-row:hover {
+    background-color: lightcyan;
+}
+
+.hide {
+    display: none;
+}
